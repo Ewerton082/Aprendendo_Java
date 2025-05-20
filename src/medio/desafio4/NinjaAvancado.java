@@ -10,6 +10,7 @@ public class NinjaAvancado extends NinjaBasico implements Ninja{
         System.out.println("idade = " + idade);
         System.out.println("habilidade = " + habilidade);
         System.out.println("especialidade = " + especialidade);
+        System.out.println("usar_habilidade = " + usar_habilidade);
         System.out.println();
     }
 

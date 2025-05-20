@@ -5,13 +5,16 @@ public class NinjaBasico implements Ninja{
     String nome;
     int idade;
     TipoHabilidade habilidade;
+    String usar_habilidade;
 
     @Override
     public void mostrarinfo() {
         System.out.println("nome = " + nome);
         System.out.println("idade = " + idade);
         System.out.println("habilidade = " + habilidade);
+        System.out.println("usar_habilidade = " + usar_habilidade);
         System.out.println();
+
 
     }
 
@@ -38,5 +41,6 @@ public class NinjaBasico implements Ninja{
         this.nome = nome;
         this.idade = idade;
         this.habilidade = habilidade;
+        this.usar_habilidade = habilidade.getHabilidade();
     }
 }
