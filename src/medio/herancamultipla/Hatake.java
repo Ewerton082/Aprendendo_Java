@@ -22,6 +22,12 @@ public class Hatake extends Ninja implements Habilidades, anbu {
         super(nome, idade, vila);
     }
 
+    public Hatake(ranks rankAtual, String vila, int numeroMissoesConluidas, int idade, String nome, Boolean sharingan) {
+        super(rankAtual, vila, numeroMissoesConluidas, idade, nome);
+        this.sharingan = sharingan;
+    }
+
+
     @Override
     public void bemvindoAnbu() {
         System.out.println("Eu sou da Anbu seu otario");
