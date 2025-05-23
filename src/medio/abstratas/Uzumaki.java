@@ -13,6 +13,16 @@ public class Uzumaki extends Ninja{
         }
     }
 
+    @Override
+    public void jogar_shuriken(){
+        System.out.println("Jogar Uma Shuriken");
+    }
+
+    @Override
+    public void jogar_kunai() {
+        System.out.println("Jogar uma kunai");
+    }
+
     public Uzumaki(String nome, String vila, int idade, E_Hokage hokage, Boolean portador) {
         super(nome, vila, idade, hokage);
         this.portador = portador;

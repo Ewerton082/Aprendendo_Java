@@ -1,6 +1,6 @@
 package medio.abstratas;
 
-public abstract class Ninja {
+public abstract class Ninja implements ataques {
 
     String nome;
     String vila;
@@ -11,10 +11,10 @@ public abstract class Ninja {
 
     }
 
-    // Metodos abstratos funcionam tipo uma interface, eles n pode ter conteudo e a classe que herdar ele terá que implementar o conteudo
+    // Metodos abstratos funcionam tipo uma interface, eles não podem ter conteudo e a classe que herdar ele terá que implementar o conteudo
     public abstract void Exec_habilidade();
 
-    // Mas classes abstratas tbm podem ter metodos universais/ padrões como esse abaixo que todas vão ter
+    // Mas classes abstratas também podem ter metodos universais/ padrões como esse abaixo que todas vão ter
     public void info(){
         System.out.println("nome = " + nome);
         System.out.println("vila = " + vila);
@@ -22,8 +22,8 @@ public abstract class Ninja {
         System.out.println(Hokage.getDesc());
     }
 
-    public String apresentar(){
-        return "Prazer em conhecer você, meu nome é " + nome + " e sou de " + vila;
+    public void apresentar(){
+        System.out.println("Prazer em conhecer você, meu nome é " + nome + " e sou de " + vila);
     }
 
 

@@ -3,7 +3,7 @@ package medio.abstratas;
 public class Main {
     public static void main(String[] args) {
 
-       // Classes Abstratas não podem ser istanciadas ou seja n criam objetos, nos obrigando a criar um classe para herdar ela
+       // Classes Abstratas não podem ser instanciadas, ou seja, não criam objetos, nos obrigando a criar uma classe para herdar ela
 
        // Ninja Minato = new Ninja("Minato Uzumaki", "Konoha", 34, E_Hokage.YES);
 
@@ -18,6 +18,8 @@ public class Main {
         Boruto.Exec_habilidade();
         Boruto.info();
         Boruto.apresentar();
+
+
 
     }
 }
