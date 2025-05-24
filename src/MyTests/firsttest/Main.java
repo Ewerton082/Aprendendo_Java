@@ -10,5 +10,10 @@ public class Main {
         Friskies.show_type();
         Friskies.realizar_compras(10);
         Friskies.show_type();
+
+        System.out.println();
+        Friskies.chamar_atencao();
+        System.out.println();
+        Friskies.chamar_atencao(true);
     }
 }

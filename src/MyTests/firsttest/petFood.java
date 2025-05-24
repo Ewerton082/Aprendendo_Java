@@ -19,6 +19,20 @@ public class petFood extends Product implements movimentacoes{
         System.out.println("Venham comprar ração para seu pet aqui !! temos a " + super.product);
     }
 
+    // Sobrecarga de metodo (o metodo de cima)
+
+
+
+    @Override
+    public void chamar_atencao(boolean foda){
+        if(foda) {
+            System.out.println("Mete a mão na raçao mane");
+        }
+        else {
+            System.out.println("Tu é muito ruim");
+        }
+    }
+
     @Override
     public void show_type() {
         System.out.println("tipo = " + tipo);
