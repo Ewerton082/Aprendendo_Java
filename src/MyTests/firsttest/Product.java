@@ -39,4 +39,9 @@ public abstract class Product {
         this.desc = desc;
         this.tipo = tipo;
     }
+
+    //teste sobreescrever metodos
+    public void teste_temp(){
+        System.out.println("teste de sobrescever produto");
+    }
 }

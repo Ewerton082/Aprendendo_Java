@@ -39,6 +39,10 @@ public class petFood extends Product implements movimentacoes{
         System.out.println("quantity = " + quantity);
     }
 
+    public void teste_temp(){
+        System.out.println("Teste na pets food");
+    }
+
     public petFood(String product, double buy_price, double sell_price, int quantity, String desc, tiposDeProdutos tipo) {
         super(product, buy_price, sell_price, quantity, desc, tipo);
     }
