@@ -19,6 +19,16 @@ public abstract class ContaBancaria implements ContaAct {
         return pass.equals(Pass_key);
     }
 
+    protected void informacoesConta(){
+        if (tipo == TipoConta.CORRENTE) {
+            System.out.println("Sua conta é do tipo corrente então ao depositar é descontado 5% do valor mas você tem saques ilimitados");
+        } else if (tipo == TipoConta.POUPANCA) {
+            System.out.println("Sua conta é do tipo poupança ou seja ao sacar dinheiro é descontado 10% do valor sacado mas ao deixar o dinheiro na conta ele rende 0.5% ao dia");
+        } else {
+            System.exit(0);
+        }
+    }
+
     @Override
     public abstract double depositar(double valor, String pass);
 
@@ -33,7 +43,6 @@ public abstract class ContaBancaria implements ContaAct {
     }
 
     public ContaBancaria(String usuario, String pass_key) {
-        this.tipo = tipo;
         Usuario = usuario;
         Pass_key = pass_key;
         Saldo_bancario = 0;
