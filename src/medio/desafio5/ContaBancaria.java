@@ -6,8 +6,9 @@ public abstract class ContaBancaria implements ContaAct {
     public double Saldo_bancario;
     public TipoConta tipo;
 
+    //O Final no Metodo faz com que não seja possivel sobreescrever ela
     @Override
-    public void consultar_saldo(String pass) {
+    public final void consultar_saldo(String pass) {
         if (pass.equals(this.Pass_key)){
             System.out.println("Olá, Você tem " + String.format("%.2f",Saldo_bancario) + " R$ em sua conta " + tipo.tipoConta);
         }else {

@@ -1,6 +1,7 @@
 package medio.desafio5;
 
-public class Poupanca extends ContaBancaria{
+// Classe FInal vai proibir de herdar de outras classes
+public final class Poupanca extends ContaBancaria{
 
     @Override
     public double depositar(double valor, String pass) {

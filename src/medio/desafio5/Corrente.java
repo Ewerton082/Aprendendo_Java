@@ -1,6 +1,8 @@
 package medio.desafio5;
 
-public class Corrente extends ContaBancaria {
+
+// Classe Final não pode ser herdad por outra classe
+public final class Corrente extends ContaBancaria {
 
     @Override
     public double depositar(double valor, String pass) {
