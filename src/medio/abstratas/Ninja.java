@@ -12,7 +12,8 @@ public abstract class Ninja {
     }
 
     // Metodos abstratos funcionam tipo uma interface, eles n pode ter conteudo e a classe que herdar ele terá que implementar o conteudo
-    public abstract void Exec_habilidade();
+    public abstract voi
+    Exec_habilidade();
 
     // Mas classes abstratas tbm podem ter metodos universais/ padrões como esse abaixo que todas vão ter
     public void info(){
