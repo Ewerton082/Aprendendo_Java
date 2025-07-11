@@ -3,11 +3,11 @@ package medio.generics.usando;
 public class Main {
     public static void main(String[] args) {
 
-        EquipamentosNinja kunai = new EquipamentosNinja("Kunai de Ferro");
-        EquipamentosNinja shuriken = new EquipamentosNinja("shuriken explosiva");
+        kunai kunai = new kunai("Kunai de Ferro", "Fogareu");
+        shuriken shuriken = new shuriken("shuriken explosiva", "Chacabum");
         EquipamentosNinja pergaminho = new EquipamentosNinja("pergaminho do sono");
 
-        BolsaGenerica<EquipamentosNinja> bolsagenerica = new BolsaGenerica<>();
+        BolsaGenerica<Object> bolsagenerica = new BolsaGenerica<>();
         bolsagenerica.adicionarEquipamentos(kunai);
         bolsagenerica.adicionarEquipamentos(shuriken);
         bolsagenerica.adicionarEquipamentos(pergaminho);
