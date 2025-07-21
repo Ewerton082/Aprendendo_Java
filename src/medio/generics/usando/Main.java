@@ -11,7 +11,7 @@ public class Main {
         bolsagenerica.adicionarEquipamentos(kunai);
         bolsagenerica.adicionarEquipamentos(shuriken);
         bolsagenerica.adicionarEquipamentos(pergaminho);
-        System.out.println(bolsagenerica);
+        System.out.println(bolsagenerica.getEquipamentos());
 
     }
 }
