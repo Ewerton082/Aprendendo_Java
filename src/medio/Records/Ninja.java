@@ -1,7 +1,5 @@
 package medio.Records;
 
-import java.util.Objects;
-
 public class Ninja {
 
     private final String nome;
@@ -14,40 +12,15 @@ public class Ninja {
         this.telefone = telefone;
     }
 
+    public String getNome() {
+        return nome;
+    }
 
     public String getEmail() {
         return email;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
     public int getTelefone() {
         return telefone;
-    }
-
-    // Core Class Futuro
-
-
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Ninja ninja = (Ninja) o;
-        return telefone == ninja.telefone && Objects.equals(nome, ninja.nome) && Objects.equals(email, ninja.email);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(nome, email, telefone);
-    }
-
-    @Override
-    public String toString() {
-        return "Ninja{" +
-                "nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", telefone=" + telefone +
-                '}';
     }
 }

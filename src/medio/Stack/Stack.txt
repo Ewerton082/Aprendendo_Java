@@ -1,0 +1,35 @@
+Anotacoes de Stack
+
+para criar é ---->  Stack<String> nomedosninjas = new Stack<>();
+
+a diferença de array, list e Stack é a seguinte
+
+array, tem tamanho fixo entao não aumenta a quantidade
+list, é dinamico entao aumenta e diminue quando necessario e tem algumas funções ja que é uma classe pre pronta
+stack é parecido com a lista mas todos objeto inseridos ficam em primneiro lugar mas tem alguns metodos
+
+----------
+Sakura
+Naruto
+Kakashi
+----------
+
+se eu incluir o naruto ele vai para cima ou seja
+----------
+Naruto
+Sakura
+Naruto
+Kakashi
+----------
+
+Esses são os metodos principais e mais comuns
+
+metodos push, pop, peek,Size, isEmpty
+
+Push() adiciona um elemento na pilha
+Pop() Retira o elemento da pilha
+Peek() Consulta qual elemento está no topo
+Size() ve o tamanho da pilha
+IsEmpty() Retorna se a pilha ta vazia
+
+é muito usado em transaçoes bancarias e historicos de navegador por exemplo

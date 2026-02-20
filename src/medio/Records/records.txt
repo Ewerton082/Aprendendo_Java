@@ -1,0 +1,6 @@
+Os records são umas classes basicas mais praticas que em resumo em uma linha fazemos a classe inteira podendo tbm por metodos porém temos uma pegadinha
+
+Os Records nao podem ter os valores alterados depois de ser criado entao pode ser usado por exemplo
+
+Nome e id de funcionario, para requisicoes de api que nao mudam
+
