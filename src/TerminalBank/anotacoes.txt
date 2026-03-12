@@ -1,0 +1,19 @@
+ Arquitetura de programas Java
+
+ normalmente eles são modulados em partes diferentes como por exemplo
+
+ [model, repository, service, ui, Main]
+
+ model > é onde iniciaremos oque existe no nosso caso seria as classes de conta e transação
+ repository > é onde vai servir como um banco de dados no nosso projeto onde vai ter uma array list que vai armazenar tudo
+ service > é o cerebro do nosso model, onde vamos atribuir nossas funcoes para fazer a magica
+ Ui > como o proprio nome diz é a parte que o usuario vê e usa
+ Main > é a entrada do nosso app onde vai direcionar para todo_o resto
+
+ fluxo é assim
+
+ Usuario Interage :D
+ Ui lê o input passado
+ Service Processa a informação e repassa o resultado
+ Repository salva o retorno se necessario
+ Ui volta para ela e retorna algo para o o usuario

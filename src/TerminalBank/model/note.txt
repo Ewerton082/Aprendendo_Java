@@ -1,0 +1,17 @@
+O que é o model
+
+É a camada que representa os objetos do mundo real do sistema
+Só tem atributos e getters/setters, sem lógica de negócio
+Cada classe model vira um "molde" para criar objetos
+
+Construtores
+
+Construtor com parâmetros → cria objeto já preenchido
+Construtor vazio → cria objeto em branco para preencher depois
+Ter os dois é boa prática
+
+O que o model não faz
+
+Não acessa banco de dados
+Não tem regras como "pode sacar?" ou "senha correta?"
+Não imprime nada na tela

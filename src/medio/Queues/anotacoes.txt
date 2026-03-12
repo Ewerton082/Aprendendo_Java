@@ -1,0 +1,10 @@
+as Queues Funcionam como listas normais ou seija o primeiro a chegar é o primeiro a sair FIFO
+
+para iniciar ela usase new LinkedList<>();
+
+assim comomo as oustras listas tem seus metodos
+
+é chamado de Hat ou Head o 1 item e de tail o ultimo item
+
+ninjaQueue.poll(); Esse Comando Remove o Head
+ninjaQueue.peek(); Vê quem é o head da fila

@@ -1,0 +1,29 @@
+O que é Repository
+
+Camada responsável por guardar e buscar dados
+É a "memória" do sistema — por enquanto uma lista, no futuro um banco de dados
+Não tem regras de negócio, só operações de dados
+
+Optional
+
+Usado quando a busca pode ou não encontrar algo
+Mais seguro que retornar null
+.isPresent() → verifica se encontrou algo
+.get() → pega o objeto de dentro
+
+Stream
+
+Transforma a lista num fluxo item por item
+.filter() → filtra com uma condição usando variável temporária
+.findFirst() → pega o primeiro que passar no filtro
+A variável temporária dentro do filter pode ter qualquer nome
+
+APRENDI MELHOR SOBRE STREAM QUE NAO FAZIA A MENOR IDEIA DE COMO LER A LISTA PARA FILTRAR QUE VI NUM REPOSITORIO DO CURSO
+E FIQUEI TIPO QUE CARALHOS É ISSO MANE MAS AGORA ENTENDI MELHOR
+
+O que o repository não faz
+
+Não imprime menus nem mensagens para o usuário
+Não decide se uma operação pode ou não acontecer
+Não conhece a camada de cima (service)
+
