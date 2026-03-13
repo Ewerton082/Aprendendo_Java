@@ -1,11 +1,12 @@
 package TerminalBank.model;
 
+import java.time.LocalDate;
 import java.util.Date;
 
-public abstract class Transaction {
+public class Transaction {
     private TransactionType tipo;
     private double valor;
-    private Date dataTransicao;
+    private LocalDate dataTransicao;
 
     public TransactionType getTipo() {
         return tipo;
@@ -15,7 +16,7 @@ public abstract class Transaction {
         return valor;
     }
 
-    public Date getDataTransicao() {
+    public LocalDate getDataTransicao() {
         return dataTransicao;
     }
 
@@ -23,11 +24,11 @@ public abstract class Transaction {
         this.tipo = tipo;
     }
 
-    public void setDataTransicao(Date dataTransicao) {
+    public void setDataTransicao(LocalDate dataTransicao) {
         this.dataTransicao = dataTransicao;
     }
 
-    public Transaction(TransactionType tipo, double valor, Date dataTransicao) {
+    public Transaction(TransactionType tipo, double valor, LocalDate dataTransicao) {
         this.tipo = tipo;
         this.valor = valor;
         this.dataTransicao = dataTransicao;

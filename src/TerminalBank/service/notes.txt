@@ -1,0 +1,22 @@
+Notas — Camada Service
+O que é
+
+Camada responsável pelas regras de negócio do sistema
+Fica entre a ui e o repository — nunca pula etapas
+Decide o que pode ou não acontecer
+
+
+Injeção de Dependência
+
+Services não criam seus próprios repositories com new
+O repository é criado uma única vez no Main e passado pelo construtor
+Garante que todos os services compartilham a mesma lista de dados
+No Spring Boot isso acontece automaticamente com @Autowired
+
+ACHEI INTERESSANTE ESSA INJEÇÃO PORQUE DA MANEIRA QUE FAZIA CRIAVA 2 LISTAS DISTINTAS
+
+Boas práticas
+
+Retornar String com mensagens de resultado é válido para apps simples
+Validações de negócio ficam aqui — valor negativo, saldo insuficiente, conta inexistente
+O service recebe objetos prontos como parâmetro e trabalha direto neles — não precisa buscar no repository o que já foi passado

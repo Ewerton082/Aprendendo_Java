@@ -1,0 +1,7 @@
+O que é a UI
+
+Camada responsável por tudo que o usuário vê e digita
+Não tem regras de negócio — só lê input, mostra output e chama o service
+Em apps maiores pode ser substituída por uma interface web sem mudar nada nas outras camadas
+
+nela é onde chamamos todas outras coisas que criamos anteriormente, com case ou if e por fim no main só iniciamos tudo que for necessario para as outras
