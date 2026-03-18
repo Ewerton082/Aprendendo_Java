@@ -1,0 +1,2 @@
+oque é fortemente tipada? é uma linguagem que tem muita burocracia onde tudo tem que ser deixado explicito como por exemplo
+ os tipos de variaveis que tem que ser explicitamente declarada

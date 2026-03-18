@@ -1,0 +1,38 @@
+O(1) - Constante -> Esse é o que em teoria seria o melhor para se ter, porque a complexidade e a duracao vai ser a mesma afinal sempre é 1 para 1
+
+A execução do algoritmo leva o mesmo tempo, independentemente do tamanho da entrada.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O(log n) - Logarítmica
+
+O tempo de execução cresce logaritmicamente com o tamanho da entrada. Comum em algoritmos que dividem a entrada pela metade a cada passo, como a busca binária.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O(n) - Linear -> O tempo e complexidade depende do tamanho da lista porque lê 1 a 1
+
+O tempo de execução cresce linearmente com o tamanho da entrada. Exemplo: percorrer todos os elementos de uma lista.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O(n log n) - Linearítmica
+
+Uma combinação de crescimento linear e logarítmico, comum em algoritmos de ordenação eficientes, como mergesort e heapsort.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O(n^2) - Quadrática
+
+O tempo de execução aumenta exponencialmente em relação ao tamanho da entrada. Exemplo: algoritmos de ordenação simples, como o bubble sort.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O(2^n) - Exponencial
+
+O tempo de execução dobra a cada aumento de unidade na entrada. Comum em algoritmos de força bruta que exploram todas as combinações possíveis, como na resolução de problemas de subconjunto.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+

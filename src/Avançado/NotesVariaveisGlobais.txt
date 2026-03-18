@@ -1,0 +1,4 @@
+Static: siginifica que podemos acessar ou usar sem criar objeto e nao staticos precisa inicializar um objeto
+acredito eu que seja usada muito como constantes tipo o numero de Env é statico porque nao vou precisar iniciar nada para usar ele
+
+

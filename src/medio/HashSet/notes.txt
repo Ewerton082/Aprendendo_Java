@@ -1,0 +1,13 @@
+A Principal Diferença de hashSet e List é que no Hash não é possivel Duplicatas e a ordem que é aleatoria
+
+em outras grandes questões são iguais porque herdam métodos das mesmas classes para seu uso
+
+para transformar uma list em Hash set é so criar uma e usar o comando AddAll(passar lista anterior);
+
+ja adciona tudo e remove duplicatas
+
+
+
+// Linked Hash Set : Em resumo evita duplicatas mas mantem a ordem que mandou com um index
+
+// TreeHashSet : você consegue por uma ordem alfabetiuca além de eliminar duplicatas
