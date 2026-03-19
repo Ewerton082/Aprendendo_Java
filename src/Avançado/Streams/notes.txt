@@ -1,0 +1,4 @@
+Streams é um conceito para reduzir codigos para operaçoes de busca e filtragem
+
+
+streams ajudam a substituir loops para pesquisas e tudo mais
